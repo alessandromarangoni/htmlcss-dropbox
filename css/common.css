@@ -23,7 +23,7 @@
 .justfy-end{justify-content: end;}
 .align-item-center{align-items: center;}
 .align-item-start{align-items: start;}
-
+.flex-xwrap{flex-wrap: wrap;}
 /* margini */
 .margin-0-auto{margin: 0 auto;}
 .margin-auto{margin: auto;}

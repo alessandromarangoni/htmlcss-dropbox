@@ -44,10 +44,10 @@ h1{
     width: calc(100% / 3 - 60px);
     height: 700px;
 }
-.section-4-box{
+#section-4-box{
 height: 193px;
-margin-bottom: 5vh !important;
-margin-top: 5vh !important;
+margin-bottom: 5vh;
+margin-top: 5vh;
 }
 
 #sec-4-left{
@@ -58,4 +58,21 @@ margin-top: 5vh !important;
 #sec-4-right{
     width: 30%;
     height: 100px;
+}
+
+#sec-5-boxed{
+    height: 400px;
+    margin-bottom: 10%;
+}
+
+.sec-5-left{
+    width: 60%;
+    height: 100%;
+}
+
+.sec-6-card{
+    height: 350px;
+    width: calc(100% / 3);
+    border: 3px solid rgb(0, 0, 255);
+    margin-top: 5%;
 }
