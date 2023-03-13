@@ -191,9 +191,7 @@ margin-right: 2em;
     font-size: 30px;
 }
 .sec-6-card{
-    min-height: 350px;
     width: calc(100% / 3);
-    border: 3px solid rgb(0, 0, 255);
     margin-top: 5%;
 }
 .sec-6-card p{
