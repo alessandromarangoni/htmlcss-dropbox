@@ -1,22 +1,30 @@
-
+/* header */
 .header-container{
-    height: 60px;
+    height: 4em;
+    position: fixed;
+    width: 100%;
 }
-
 .w30header{
     width: 30%;
 }
+.link-header{
+    text-decoration: none;
+    color: black;
+}
 
+#header-button{
+    padding: .5em;
+}
 h1{
-    font-size:40px;
-    margin-bottom:5%;
+    font-size:50px;
+    padding-top: 5vh;
 }
 #sec-1-container{
     min-height: 650px;
     padding-top: 5%;
 }
-.boxed-w70{
-    width: 70%;
+.boxed-w60{
+    width: 60%;
 }
 .jumbotron{
     min-height: 100%;
@@ -31,8 +39,8 @@ h1{
     width: 70%;
 }
 
-.boxed-60vw{
-    width: 60%;
+.boxed-50vw{
+    width: 50%;
 }
 
 #section-2-container{

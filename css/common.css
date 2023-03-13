@@ -10,9 +10,11 @@
 .viola{background-color: rgb(206, 49, 249) ;}
 .giallo{background-color: yellowgreen ;}
 .verde{background-color: green;}
-.azzurro{background-color: rgb(0, 204, 255);}
+/* .azzurro{background-color: rgb(0, 204, 255);} */
 
-
+/* colori ufficiali */
+.bianco{background-color: white;}
+.azzurro{background-color: #b4d0e7;}
 /* flex */
 .display-flex{display: flex;}
 .flex-row{flex-direction: row;}
@@ -27,3 +29,10 @@
 /* margini */
 .margin-0-auto{margin: 0 auto;}
 .margin-auto{margin: auto;}
+
+/* classi comuni */
+.blu-button{
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+}
