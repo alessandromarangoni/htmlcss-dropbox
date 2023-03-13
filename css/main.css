@@ -6,3 +6,28 @@
 .w30header{
     width: 30%;
 }
+
+h1{
+    font-size:40px;
+    margin-bottom:5%;
+}
+
+.sec-1-boxed{
+    width: 60%;
+    min-height: 650px;
+    padding-top: 5%;
+}
+.jumbotron{
+    min-height: 100%;
+}
+.jumbo-w30{
+    width: 30%;
+    height: 100%;
+}
+
+.jumbo-w70{
+    height: 300px;
+    width: 70%;
+}
+
+
