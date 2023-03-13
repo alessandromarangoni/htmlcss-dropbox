@@ -76,3 +76,36 @@ margin-top: 5vh;
     border: 3px solid rgb(0, 0, 255);
     margin-top: 5%;
 }
+
+#sec-7{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.sec-8-box{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 3px solid rgb(182, 1, 25);
+}
+
+.sec-8-mini-box{
+    width: 50%;
+    height: 50%;
+    border: 2px solid greenyellow;
+}
+/* dopo andra aggiunto padding */
+#section-9-box{
+    height: 300px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    }
+
+#sec-9-left{
+        width: 70%;
+        height: 300px;
+}
+
+#sec-4-right{
+    width: 30%;
+    height: 300px;
+}
