@@ -169,14 +169,38 @@ margin-right: 2em;
 
 .sec-5-left{
     width: 60%;
-    height: 100%;
 }
-
+#sec-5-img{
+    width: 100%;
+}
+.sec-5-right{
+    width: 40%;
+    padding: 2em 2em;
+}
+.sec-5-right h3{
+    font-size: 25px;
+    margin-bottom: 1em ;
+}
+.sec-5-right button{
+    background-color: white;
+    padding: 1em 2em;
+    align-self: flex-start;
+    margin-top: 2em;
+}
+.section-6 h2{
+    font-size: 30px;
+}
 .sec-6-card{
-    height: 350px;
+    min-height: 350px;
     width: calc(100% / 3);
     border: 3px solid rgb(0, 0, 255);
     margin-top: 5%;
+}
+.sec-6-card p{
+    padding: 1em 0;
+}
+.card-img{
+    width: 100%;
 }
 
 #sec-7{
