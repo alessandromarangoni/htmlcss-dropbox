@@ -16,11 +16,13 @@
     padding: .5em;
 }
 h1{
-    font-size:50px;
+    font-size:60px;
     padding-top: 5vh;
+    padding-bottom: 5vh;
 }
+
 #sec-1-container{
-    min-height: 650px;
+    /* min-height: 650px; */
     padding-top: 5%;
 }
 .boxed-w60{
@@ -29,14 +31,30 @@ h1{
 .jumbotron{
     min-height: 100%;
 }
+.jumbotron button{
+    padding: 1em;
+    margin: 5% 0;
+}
+.jumbotron-img{
+    width: 100%;
+}
 .jumbo-w30{
     width: 30%;
     height: 100%;
 }
-
 .jumbo-w70{
     height: 300px;
     width: 70%;
+}
+.jumbotron span{
+    display: block;
+    padding: 1em 0;
+}
+.fa-arrow-down{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    padding: 10% 0 ;
 }
 
 .boxed-50vw{
