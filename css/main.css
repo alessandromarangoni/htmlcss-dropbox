@@ -75,7 +75,6 @@ margin-right: 2em;
 .long-box{
     margin-top: 10%;
     width: calc(100% / 3 - 3%);
-    height: 700px;
     align-content: space-around;
     border: 2px solid rgba(0, 0, 0, 0.1);
 }
@@ -116,12 +115,19 @@ margin-right: 2em;
 
 .fa-check{
     color: #378dff;
-    font-size: 1.5em;
+    font-size: 18px;
 }
 .prova{
-    line-height: 1.5em;
+    padding-top: 1em;
     list-style: none;
 }
+.prova:first-child{
+    padding-top:1.5em
+}
+.prova:last-child{
+    padding-bottom:1.5em
+}
+
 
 #section-4-box{
 height: 193px;
