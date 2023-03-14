@@ -51,6 +51,7 @@
 #header-button{
     padding: .5em;
 }
+/* jumbotron */
 h1{
     font-size:60px;
     padding-top: 5vh;
@@ -98,7 +99,7 @@ h1{
 .boxed-50vw{
     width: 50%;
 }
-
+/* section2 */
 #section-2-container{
     margin-top: 10vh;
     font-size: 25px;
@@ -109,7 +110,7 @@ h1{
 #section-2-container span{
 margin-right: 2em;
 }
-
+/* section 3 */
 .long-box{
     margin-top: 10%;
     width: calc(100% / 3 - 3%);
@@ -117,8 +118,8 @@ margin-right: 2em;
     border: 2px solid rgba(0, 0, 0, 0.1);
 }
 .padding-left{
-    padding-left: 20px;
-    
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .plan-type{
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
@@ -163,8 +164,9 @@ margin-right: 2em;
     padding-top:1.5em
 }
 .check:last-child{
-    padding-bottom:1.5check
+    padding-bottom:1.5em;
 }
+/* section 4 */
 #section-4-box{
     margin-bottom: 5vh;
     margin-top: 5vh;
@@ -204,7 +206,7 @@ margin-right: 2em;
     height: 400px;
     margin-bottom: 10%;
 }
-
+/* section 5 */
 .sec-5-left{
     width: 60%;
 }
@@ -225,6 +227,7 @@ margin-right: 2em;
     align-self: flex-start;
     margin-top: 2em;
 }
+/* section 6 */
 .section-6 h2{
     font-size: 30px;
 }
@@ -238,7 +241,7 @@ margin-right: 2em;
 .card-img{
     width: 100%;
 }
-
+/* section 7 */
 #sec-7{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -250,7 +253,7 @@ margin-right: 2em;
 #sec-7 a{
     color: #378dff;
 }
-
+/* Section 8 */
 .sec-8-box{
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -310,25 +313,27 @@ margin-right: 2em;
 #section-8-box-2 p{
     line-height: 1.5em;
 }
-/* dopo andra aggiunto padding */
+/* secction 9 */
 #section-9-box{
-    padding: 5%;
+    padding: 5% 0;
     font-size: 25px;
     color: #660c2b;
     }
 
 #sec-9-left{
-        width: 70%;
+        width: 60%;
 }
-
 #sec-9-right{
+    display: grid;
     width: 30%;
+    justify-self: end;
 }
 #sec-9-right button{
     background-color: #f5f5f5;
     border: 1px solid black;
-    padding: 1em 2em;
+    padding: 1em;
 }
+/* section 10 */
 .section-10-row{
     font-weight: 500;
     padding: 2em;
