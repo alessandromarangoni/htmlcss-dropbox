@@ -3,15 +3,45 @@
     height: 4em;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 .w30header{
-    width: 30%;
+    min-width: 30%;
 }
 .link-header{
     text-decoration: none;
     color: black;
 }
-
+#list-item{
+    display: none;
+}
+@media (max-width: 800px) {.link-header
+    {
+        display: none;
+    }
+}
+@media (min-width: 800px) {.list-header-hidden
+    {
+        display: none;
+    }
+}
+.list-header-hidden{
+    align-self: center;
+}
+.fa-bars:hover + #list-item{
+    display: block;
+}
+#list-item{
+    margin-top: 100%;
+    background-color: #5a65ea;
+    border-radius: 5px;
+    padding-top: 3em;
+    list-style: none;
+}
+#list-item a{
+    text-decoration: none;
+    color: black;
+}
 #header-button{
     padding: .5em;
 }
@@ -22,14 +52,13 @@ h1{
 }
 
 #sec-1-container{
-    /* min-height: 650px; */
     padding-top: 5%;
 }
 .boxed-w60{
-    width: 60%;
+    max-width: 60%;
 }
 .jumbotron{
-    min-height: 100%;
+    max-height: 20%;
 }
 .jumbotron button{
     padding: 1em;
@@ -37,14 +66,17 @@ h1{
 }
 .jumbotron-img{
     width: 100%;
+    position: relative;
+    top: 10%;
+    transform: scale(1.2);
+    padding-left:5%;
 }
 .jumbo-w30{
     width: 30%;
-    height: 100%;
 }
 .jumbo-w70{
-    height: 300px;
     width: 70%;
+    position: relative;
 }
 .jumbotron span{
     display: block;
@@ -310,6 +342,9 @@ margin-right: 2em;
 .fa-chevron-down{
     display: block;
 }
+.fa-chevron-down:hover{
+    transform: rotate(180deg);
+}
 #section-10-container{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -319,15 +354,37 @@ margin-right: 2em;
     padding-bottom: 5%;
 }
 footer{
-    height: 50vh;
+    background-color: black;
 }
 
 #footer-container{
-    height: 40vh;
     margin-top:5vh;
 }
 
 #footer-link-box{
-    width: calc(100% / 5);
-    border: 3px solid black;
+    width: calc(100% / 5 - 5%);
+    padding-bottom:5vh;
+    column-gap: 5%;
+}
+#footer-link-box h3{
+    color: white;
+}
+footer li{
+    list-style: none;
+    padding-top: 1em;
+}
+.footer-link{
+    color:white;
+    text-decoration: none;
+}
+
+.footer-last-section{
+    padding: 2% 0;
+    color:grey ;
+}
+select{
+    padding: .5em;
+    background-color: black;
+    color: grey;
+    border:0;
 }
