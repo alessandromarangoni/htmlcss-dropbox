@@ -4,6 +4,8 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000a1, 3px 7px 15px 15px rgba(0, 0, 0, 0.112); 
+    box-shadow: 0px 10px 13px -7px #000000a1, 3px 7px 15px 15px rgba(0,0,0,0.14);
 }
 .w30header{
     min-width: 30%;
@@ -31,16 +33,20 @@
 .fa-bars:hover + #list-item{
     display: block;
 }
+#list-item:hover{
+    display: block;
+}
 #list-item{
-    margin-top: 100%;
-    background-color: #5a65ea;
-    border-radius: 5px;
-    padding-top: 3em;
+    margin-top:50%;
+    border-radius: .5em;
+    padding: .5em;
     list-style: none;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px 7px 17px 15px rgba(180,208,231,0.45); 
+    box-shadow: 0px 10px 13px -7px #000000, 3px 7px 17px 15px rgba(180,208,231,0.45);
 }
 #list-item a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #header-button{
     padding: .5em;
@@ -377,6 +383,12 @@ footer li{
     color:white;
     text-decoration: none;
 }
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer-br{
+    width: 20%;
+}
 
 .footer-last-section{
     padding: 2% 0;
@@ -387,4 +399,9 @@ select{
     background-color: black;
     color: grey;
     border:0;
+}
+.footer-last-section div{
+    border-top: 2px solid grey;
+    width: 20%;
+    padding-top: 2em;
 }
