@@ -53,7 +53,6 @@ p{line-height: 1.3em;}
     animation: bounce 1s ease 1;
 }
 
-/* animation: bounce 2s ease infinite; */
 
 @keyframes bounce {
     30% {
@@ -78,5 +77,6 @@ p{line-height: 1.3em;}
         transform:translateY(0); 
     }
 }
-
-
+.long-box ul:nth-child(2){
+    justify-self: start;
+}
