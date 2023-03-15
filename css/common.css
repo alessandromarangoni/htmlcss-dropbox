@@ -48,3 +48,35 @@ p{line-height: 1.3em;}
 .text-align-center{text-align: center;}
 
 
+.card-img:hover{
+    transition: 1s ease-out;
+    animation: bounce 1s ease 1;
+}
+
+/* animation: bounce 2s ease infinite; */
+
+@keyframes bounce {
+    30% {
+        transform:translateY(0%); 
+    }
+    60% { 
+        transform:translateY(-15%); 
+    }
+    75% { 
+        transform:translateY(0%); 
+    }
+    85% { 
+        transform:translateY(-7%); 
+    }
+    90% { 
+        transform:translateY(0%); 
+    }
+    95% { 
+        transform:translateY(-3%); 
+    }
+    100% { 
+        transform:translateY(0); 
+    }
+}
+
+

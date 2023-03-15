@@ -14,6 +14,12 @@
     text-decoration: none;
     color: black;
 }
+.link-header:hover{
+    text-shadow:-2px -4px 2px #3c92de54;
+}
+.link-header:active{
+    transform: scale(1.1);
+}
 #list-item{
     display: none;
 }
@@ -127,6 +133,9 @@ margin-right: 2em;
 }
 #piani-e-prezzi h2{
     padding:1em 0;
+}
+#piani-e-prezzi > div{
+    column-gap: 1em;
 }
 .price{
     font-weight: 800;
@@ -347,15 +356,22 @@ margin-right: 2em;
     display: none;
     padding:1em;
 }
-.chevron:hover + .hidden{
+/* .chevron:hover + .hidden{
+    display: block;
+} */
+.section-10-row:hover > .hidden{
     display: block;
 }
-.fa-chevron-down{
-    display: block;
-}
-.fa-chevron-down:hover{
+.section-10-row:hover .fa-chevron-down{
     transform: rotate(180deg);
+    transition: .1s;
 }
+/* .fa-chevron-down{
+    display: block;
+} */
+/* .fa-chevron-down:hover{
+    transform: rotate(180deg);
+} */
 #section-10-container{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -367,7 +383,6 @@ margin-right: 2em;
 footer{
     background-color: black;
 }
-
 #footer-container{
     margin-top:5vh;
 }
@@ -390,9 +405,6 @@ footer li{
 }
 .footer-link:hover{
     text-decoration: underline;
-}
-.footer-br{
-    width: 20%;
 }
 
 .footer-last-section{
